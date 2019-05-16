@@ -84,8 +84,62 @@ body {
     font-family: fivo_sanslight, Arial, sans-serif;
     font-size: 18px;
     line-height: 40px;
+
+    color: rgba(0, 0, 0, 0.65);
+
+    background-color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
+.red-btn {
+    background-color: #ff6a6d;
+}
+
+.header-nav {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.header-nav .main-header__logo {
+    font-family: fivo_sansheavy, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #ff6a6d;
+}
+
+.site-navigation,
+.user-navigation {
+    list-style-type: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color: rgba(28, 32, 86, 0.5);
+}
+
+.site-navigation .current {
+    font-family: fivo_sansbold, Arial, sans-serif;
+
+    color: #ff6a6d;
+}
+
+.user-navigation .user-navigation__button {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+
+    color: #fff;
+
+    padding: 12px 45px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
 
 
 
