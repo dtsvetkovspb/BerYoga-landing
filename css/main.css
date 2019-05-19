@@ -98,6 +98,12 @@ a {
     background-color: #ff6a6d;
 }
 
+.main-header {
+    background-image: url(../img/header-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 .header-nav {
     font-family: fivo_sansregular, Arial, sans-serif;
     font-size: 18px;
@@ -141,16 +147,137 @@ a {
     border-radius: 20px;
 }
 
+.title2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: fivo_sansbold, Arial, sans-serif;
 
+    color: #3b3838;
+}
 
+.start-home__button {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
 
+    color: #f82a56;
 
+    padding: 27px 50px;
 
+    border: 3px solid #f82a56;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
 
+.features-block1__h3 {
+    font-family: fivo_sansbold, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 60px;
 
+    color: #3b3838;
+}
 
+.features-block1__p {
+    line-height: 27px;
+}
 
+.features-block2 h3 {
+    font-family: fivo_sansbold, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 40px;
 
+    color: #000;
+    opacity: .75;
+}
+
+.oblique {
+    font-family: fivo_sansitalic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+
+    color: #3cbef1;
+}
+
+.best-seller {
+    font-family: fivo_sansbold, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #fbfcfc;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+
+    background-color: #ff6a6d;
+}
+
+.prices-list li {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    line-height: 30px;
+
+    text-transform: capitalize;
+}
+
+.prices__amount {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    font-size: 150px;
+    line-height: 150px;
+}
+
+.prices__billed {
+    font-family: fivo_sansitalic, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.prices__h3 {
+    font-family: fivo_sansbold, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #6d6d6d;
+}
+
+.prices__btn {
+    font-family: fivo_sansmedium, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    
+    background-color: #ff6a6d;
+
+    color: #fbfcfc;
+    text-transform: capitalize;
+}
+
+.footer-nav__h3 {
+    font-family: fivo_sans_modernheavy, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+
+    color: #6d6d6d;
+    text-transform: uppercase;
+}
+
+.footer-nav__list a {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+
+    color: inherit;
+}
+
+.footer-nav__contacts {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-nav__copyright {
+    font-family: fivo_sansregular, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}
  /* ==========================================================================
    Helper classes
    ========================================================================== */
